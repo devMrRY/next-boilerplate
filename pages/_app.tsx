@@ -2,7 +2,7 @@ import "@/styles/globals.scss";
 import { NextPage } from "next";
 import NextNProgress from "nextjs-progressbar";
 
-import type { AppContext, AppInitialProps, AppProps } from "next/app";
+import type { AppContext, AppInitialProps, AppProps, NextWebVitalsMetric } from "next/app";
 import App from "next/app";
 import { ReactElement, ReactNode } from "react";
 import { Roboto } from 'next/font/google'
@@ -15,6 +15,11 @@ const roboto = Roboto({
 export type NextPageWithLayout<P = {}, IP = P> = NextPage<P, IP> & {
   getLayout?: (page: ReactElement) => ReactNode,
 };
+
+// for analytics
+export function reportWebVitals(metric: NextWebVitalsMetric) {
+  console.log(metric)
+}
 
 export default function MyApp({
   Component,
