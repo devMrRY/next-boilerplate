@@ -19,10 +19,16 @@ const nextConfig = {
   images: {
     remotePatterns: [
       {
+        protocol: 'https',
+        hostname: 'placekitten.com',
+        port: '',
+        pathname: '/**',
+      },
+      {
         protocol: 'http',
         hostname: 'codeskulptor-assets.commondatastorage.googleapis.com',
         port: '',
-        pathname: '/*',
+        pathname: '/**',
       },
     ],
   },

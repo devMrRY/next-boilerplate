@@ -1,12 +1,13 @@
 import { useAmp } from "next/amp";
 import { AppProps } from "next/app";
+import Image from "next/image";
 import { useRouter } from "next/router";
 
 export const config = { amp: "hybrid" };
 
 const imgSrc = "https://placekitten.com/1000/1000";
 
-const Image = () =>
+const MyImage = () =>
   useAmp() ? (
     <amp-img
       alt="A cute kitten"
@@ -16,7 +17,7 @@ const Image = () =>
       layout="responsive"
     ></amp-img>
   ) : (
-    <img alt="A cute kitten" src={imgSrc} width="1000" height="1000"></img>
+    <Image alt="A cute kitten" src={imgSrc} width="1000" height="1000"></Image>
   );
 
 export default function Blog(props: AppProps) {
@@ -26,7 +27,7 @@ export default function Blog(props: AppProps) {
   return (
     <>
       catch all Blogs
-      <Image />
+      <MyImage />
     </>
   );
 }
