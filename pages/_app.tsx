@@ -6,7 +6,7 @@ import type { AppContext, AppInitialProps, AppProps, NextWebVitalsMetric } from 
 import App from "next/app";
 import { ReactElement, ReactNode } from "react";
 import { Roboto } from 'next/font/google'
- 
+
 const roboto = Roboto({
   weight: '400',
   subsets: ['latin'],

@@ -1,5 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  experimental: {
+    amp: {
+      skipValidation: true,
+    }
+  },
   reactStrictMode: true,
   typescript: {
     ignoreBuildErrors: true,
