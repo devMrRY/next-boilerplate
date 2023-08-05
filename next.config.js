@@ -11,12 +11,21 @@ const nextConfig = {
   typescript: {
     ignoreBuildErrors: true,
   },
+  modularizeImports: {
+    'react-bootstrap': {
+      transform: 'react-bootstrap/{{member}}',
+    },
+  },
   compiler: {
-    "baseUrl": ".",
-    "paths": {
+    baseUrl: ".",
+    paths: {
       "@/styles/*": ["styles/*"],
       "@/components/*": ["components/*"]
-    }
+    },
+    reactRemoveProperties: { properties: ['^data-custom$'] },
+    removeConsole: {
+      exclude: ['error'],
+    },
   },
   images: {
     loader: "custom",
