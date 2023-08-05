@@ -8,6 +8,7 @@
     "start": "next start",
     "lint": "next lint"
   },
+  "browserslist": [">0.3%", "not dead", "not op_mini all"],
   "dependencies": {
     "@types/node": "20.4.5",
     "@types/react": "18.2.17",
