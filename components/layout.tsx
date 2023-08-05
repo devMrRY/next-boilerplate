@@ -1,7 +1,7 @@
 import { AppProps } from "next/app";
 import Link from "next/link";
 
-export default function Layout(
+export default function (
   props: AppProps & { children: React.ReactNode }
 ) {
   return (

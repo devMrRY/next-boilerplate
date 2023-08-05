@@ -19,6 +19,8 @@ const nextConfig = {
     }
   },
   images: {
+    loader: "custom",
+    loaderFile: "./components/my-image-loader.tsx",
     remotePatterns: [
       {
         protocol: 'https',
@@ -29,6 +31,12 @@ const nextConfig = {
       {
         protocol: 'http',
         hostname: 'codeskulptor-assets.commondatastorage.googleapis.com',
+        port: '',
+        pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'res.cloudinary.com',
         port: '',
         pathname: '/**',
       },

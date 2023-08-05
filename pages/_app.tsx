@@ -1,7 +1,7 @@
 import "@/styles/globals.scss";
 import { NextPage } from "next";
 import NextNProgress from "nextjs-progressbar";
-
+import ErrorBoundary from '@/components/ErrorBoundary'
 import type { AppContext, AppInitialProps, AppProps, NextWebVitalsMetric } from "next/app";
 import App from "next/app";
 import { ReactElement, ReactNode } from "react";
@@ -40,7 +40,9 @@ export default function MyApp({
   return getLayout(
     <main className={roboto.className}>
       <NextNProgress color="red" />
-      <Component {...pageProps} />
+      <ErrorBoundary>
+        <Component {...pageProps} />
+      </ErrorBoundary>
     </main>
   );
 }
