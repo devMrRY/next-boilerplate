@@ -6,18 +6,18 @@
 |------|------------------|
 |*     |[What is Next.js?](#q-what-is-nextjs-)|
 |*     |[How it is better than React.js?](#q-how-it-is-better-than-reactjs-)|
-|*     |[what is custom _app](#q-what-is-custom-_app-)|
-|*     |[what is custom _document](#q-what-is-custom-_document-)|
-|*     |[what is custom _error](#q-what-is-custom-_error-)|
+|*     |[What is custom _app](#q-what-is-custom-_app-)|
+|*     |[What is custom _document](#q-what-is-custom-_document-)|
+|*     |[What is custom _error](#q-what-is-custom-_error-)|
 |*     |[Diff between catch all and optional catch all routes](#q-diff-between-catch-all-and-optional-catch-all-routes-)|
-|*     |[Data fetching methods in Next.js](#q-Data-fetching-methods-in-Nextjs-)|
-|*     |[What is SSR?](#q-What-is-SSR-)|
-|*     |[What is Static Site Rendering?](#q-What-is-Static-Site-Rendering-)|
-|*     |[What is ISR?](#q-What-is-ISR-)|
+|*     |[Data fetching methods in Next.js](#q-data-fetching-methods-in-nextjs-)|
+|*     |[What is SSR?](#q-what-is-ssr-)|
+|*     |[What is Static Site Rendering?](#q-what-is-static-site-rendering-)|
+|*     |[What is ISR?](#q-what-is-isr-)|
 |*     |[What is AMP (Amplified Mobile Pages)](#q-what-is-amp-(amplified-mobile-pages)-)|
-|*     |[Middleware in next.js](#q-Middleware-in-nextjs-)|
-|*     |[Custom Server in Next.js](#q-Custom-Server-in-nextjs-)|
-|*     |[Error Boundary in Next.js](#q-Error-Boundary-in-nextjs-)|
+|*     |[Middleware in next.js](#q-middleware-in-nextjs-)|
+|*     |[Custom Server in Next.js](#q-custom-server-in-nextjs-)|
+|*     |[Error Boundary in Next.js](#q-error-boundary-in-nextjs-)|
 |*     |[Draft and Preview mode](#q-draft-and-preview-mode-)|
 |*     |[next.config.js](#q-next.configjs-)|
 |*     |[order/preference of env files](#q-orderpreference-of-env-files-)|
@@ -29,14 +29,16 @@ Next.js is framework which uses both server-side and client-side rendering
 ## Q. ***How it is better than React.js ?***
 
 
-## Q. ***custom _app***
+## Q. ***What is custom _app***
 
 
-## Q. ***custom _document***
+## Q. ***What is custom _document***
 
 
+## Q. ***What is custom _error***
 
-## Q. ***catch all and optional catch all routes***
+
+## Q. ***Diff between catch all and optional catch all routes***
 
 
 
