@@ -6,20 +6,20 @@
 |------|------------------|
 |*     |[What is Next.js?](#q-what-is-nextjs-)|
 |*     |[How it is better than React.js?](#q-how-it-is-better-than-reactjs-)|
-|*     |[What is custom _app](#q-what-is-custom-_app-)|
-|*     |[What is custom _document](#q-what-is-custom-_document-)|
-|*     |[What is custom _error](#q-what-is-custom-_error-)|
-|*     |[Diff between catch all and optional catch all routes](#q-diff-between-catch-all-and-optional-catch-all-routes-)|
-|*     |[Data fetching methods in Next.js](#q-data-fetching-methods-in-nextjs-)|
-|*     |[What is SSR?](#q-what-is-ssr-)|
-|*     |[What is Static Site Rendering?](#q-what-is-static-site-rendering-)|
-|*     |[What is ISR?](#q-what-is-isr-)|
-|*     |[What is AMP (Amplified Mobile Pages)](#q-what-is-amp-(amplified-mobile-pages)-)|
-|*     |[Middleware in next.js](#q-middleware-in-nextjs-)|
-|*     |[Custom Server in Next.js](#q-custom-server-in-nextjs-)|
-|*     |[Error Boundary in Next.js](#q-error-boundary-in-nextjs-)|
-|*     |[Draft and Preview mode](#q-draft-and-preview-mode-)|
-|*     |[next.config.js](#q-next.configjs-)|
+|*     |[What is custom _app](#q-what-is-custom-_app)|
+|*     |[What is custom _document](#q-what-is-custom-_document)|
+|*     |[What is custom _error](#q-what-is-custom-_error)|
+|*     |[Diff between catch all and optional catch all routes](#q-diff-between-catch-all-and-optional-catch-all-routes)|
+|*     |[Data fetching methods in Next.js](#q-data-fetching-methods-in-nextjs)|
+|*     |[What is SSR?](#q-what-is-ssr)|
+|*     |[What is Static Site Rendering?](#q-what-is-static-site-rendering)|
+|*     |[What is ISR?](#q-what-is-isr)|
+|*     |[What is AMP (Amplified Mobile Pages)](#q-what-is-amp-(amplified-mobile-pages))|
+|*     |[Middleware in next.js](#q-middleware-in-nextjs)|
+|*     |[Custom Server in Next.js](#q-custom-server-in-nextjs)|
+|*     |[Error Boundary in Next.js](#q-error-boundary-in-nextjs)|
+|*     |[Draft and Preview mode](#q-draft-and-preview-mode)|
+|*     |[next.config.js](#q-next.configjs)|
 |*     |[order/preference of env files](#q-orderpreference-of-env-files-)|
 
 ## Q. ***What is Next.js ?***
