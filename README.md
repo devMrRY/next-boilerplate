@@ -14,12 +14,12 @@
 |*     |[What is SSR?](#q-what-is-ssr)|
 |*     |[What is Static Site Rendering?](#q-what-is-static-site-rendering)|
 |*     |[What is ISR?](#q-what-is-isr)|
-|*     |[What is AMP (Amplified Mobile Pages)](#q-what-is-amp-(amplified-mobile-pages))|
+|*     |[What is AMP (Amplified Mobile Pages)](#q-what-is-amp-amplified-mobile-pages)|
 |*     |[Middleware in next.js](#q-middleware-in-nextjs)|
 |*     |[Custom Server in Next.js](#q-custom-server-in-nextjs)|
 |*     |[Error Boundary in Next.js](#q-error-boundary-in-nextjs)|
 |*     |[Draft and Preview mode](#q-draft-and-preview-mode)|
-|*     |[next.config.js](#q-next.configjs)|
+|*     |[next.config.js](#q-nextconfigjs)|
 |*     |[order/preference of env files](#q-orderpreference-of-env-files-)|
 
 ## Q. ***What is Next.js ?***
@@ -70,7 +70,7 @@ Next.js is framework which uses both server-side and client-side rendering
 
 
 
-## Q. ***Error Boundary***
+## Q. ***Error Boundary in Next.js***
 
 
 
