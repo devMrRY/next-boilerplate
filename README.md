@@ -2,86 +2,61 @@
 
 <br/>
 
-| Sl.No|  Questions       |
-|------|------------------|
-|*     |[What is Next.js?](#q-what-is-nextjs-)|
-|*     |[How it is better than React.js?](#q-how-it-is-better-than-reactjs-)|
-|*     |[What is custom _app](#q-what-is-custom-_app)|
-|*     |[What is custom _document](#q-what-is-custom-_document)|
-|*     |[What is custom _error](#q-what-is-custom-_error)|
-|*     |[Diff between catch all and optional catch all routes](#q-diff-between-catch-all-and-optional-catch-all-routes)|
-|*     |[Data fetching methods in Next.js](#q-data-fetching-methods-in-nextjs)|
-|*     |[What is SSR?](#q-what-is-ssr)|
-|*     |[What is Static Site Rendering?](#q-what-is-static-site-rendering)|
-|*     |[What is ISR?](#q-what-is-isr)|
-|*     |[What is AMP (Amplified Mobile Pages)](#q-what-is-amp-amplified-mobile-pages)|
-|*     |[Middleware in next.js](#q-middleware-in-nextjs)|
-|*     |[Custom Server in Next.js](#q-custom-server-in-nextjs)|
-|*     |[Error Boundary in Next.js](#q-error-boundary-in-nextjs)|
-|*     |[Draft and Preview mode](#q-draft-and-preview-mode)|
-|*     |[next.config.js](#q-nextconfigjs)|
-|*     |[order/preference of env files](#q-orderpreference-of-env-files-)|
+| Sl.No | Questions                                                                                                       |
+| ----- | --------------------------------------------------------------------------------------------------------------- |
+| \*    | [What is Next.js?](#q-what-is-nextjs-)                                                                          |
+| \*    | [How it is better than React.js?](#q-how-it-is-better-than-reactjs-)                                            |
+| \*    | [What is custom \_app](#q-what-is-custom-_app)                                                                  |
+| \*    | [What is custom \_document](#q-what-is-custom-_document)                                                        |
+| \*    | [What is custom \_error](#q-what-is-custom-_error)                                                              |
+| \*    | [Diff between catch all and optional catch all routes](#q-diff-between-catch-all-and-optional-catch-all-routes) |
+| \*    | [Data fetching methods in Next.js](#q-data-fetching-methods-in-nextjs)                                          |
+| \*    | [What is SSR?](#q-what-is-ssr)                                                                                  |
+| \*    | [What is Static Site Rendering?](#q-what-is-static-site-rendering)                                              |
+| \*    | [What is ISR?](#q-what-is-isr)                                                                                  |
+| \*    | [What is AMP (Amplified Mobile Pages)](#q-what-is-amp-amplified-mobile-pages)                                   |
+| \*    | [Middleware in next.js](#q-middleware-in-nextjs)                                                                |
+| \*    | [Custom Server in Next.js](#q-custom-server-in-nextjs)                                                          |
+| \*    | [Error Boundary in Next.js](#q-error-boundary-in-nextjs)                                                        |
+| \*    | [Draft and Preview mode](#q-draft-and-preview-mode)                                                             |
+| \*    | [next.config.js](#q-nextconfigjs)                                                                               |
+| \*    | [order/preference of env files](#q-orderpreference-of-env-files-)                                               |
 
-## Q. ***What is Next.js ?***
+## Q. **_What is Next.js ?_**
 
-Next.js is framework which uses both server-side and client-side rendering
+Next.js is a framework which uses both server-side and client-side rendering. unlike react.js which is a library to create spa's
 
-## Q. ***How it is better than React.js ?***
+## Q. **_How it is better than React.js ?_**
 
+## Q. **_What is custom \_app_**
 
-## Q. ***What is custom _app***
+## Q. **_What is custom \_document_**
 
+## Q. **_What is custom \_error_**
 
-## Q. ***What is custom _document***
+## Q. **_Diff between catch all and optional catch all routes_**
 
+## Q. **_Data fetching methods in Next.js_**
 
-## Q. ***What is custom _error***
+## Q. **_What is SSR?_**
 
+## Q. **_What is Static Site Rendering?_**
 
-## Q. ***Diff between catch all and optional catch all routes***
+## Q. **_What is ISR?_**
 
+## Q. **_What is AMP (Amplified Mobile Pages)_**
 
+## Q. **_Middleware in next.js_**
 
-## Q. ***Data fetching methods in Next.js***
+## Q. **_Custom Server in Next.js_**
 
+## Q. **_Error Boundary in Next.js_**
 
+## Q. **_Draft and Preview mode_**
 
-## Q. ***What is SSR?***
+## Q. **_next.config.js_**
 
-
-
-## Q. ***What is Static Site Rendering?***
-
-
-
-## Q. ***What is ISR?***
-
-
-
-## Q. ***What is AMP (Amplified Mobile Pages)***
-
-
-
-## Q. ***Middleware in next.js***
-
-
-
-## Q. ***Custom Server in Next.js***
-
-
-
-## Q. ***Error Boundary in Next.js***
-
-
-
-## Q. ***Draft and Preview mode***
-
-
-
-## Q. ***next.config.js***
-
-
-## Q. ***order/preference of env files ***
+## Q. **_order/preference of env files _**
 
 1. process.env
 2. .env.$(NODE_ENV).local
