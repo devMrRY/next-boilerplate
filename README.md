@@ -58,7 +58,7 @@ Next.js is framework which uses both server-side and client-side rendering
 
 
 
-## Q. ***AMP (Amplified Mobile Pages)***
+## Q. ***What is AMP (Amplified Mobile Pages)***
 
 
 
