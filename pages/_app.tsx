@@ -37,6 +37,7 @@ export default function MyApp({
         {page}
       </>
     ));
+
   return getLayout(
     <main className={roboto.className}>
       <NextNProgress color="red" />
@@ -47,11 +48,9 @@ export default function MyApp({
   );
 }
 
-// If getInitialProps is used in a custom _app.js, and the page being navigated to is using getServerSideProps, then getInitialProps will also run on the server.
-// Using getInitialProps in App will disable Automatic Static Optimization for pages without getStaticProps.
 MyApp.getInitialProps = async function (
   context: AppContext,
-): Promise<AppInitialProps> {
+): Promise<AppInitialProps<{pageProps: any}>> {
   console.log("MyApp.getInitialProps called");
   const ctx = await App.getInitialProps(context);
 

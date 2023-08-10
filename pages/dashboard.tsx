@@ -28,6 +28,10 @@ export const getServerSideProps: GetServerSideProps<{
     const redirect = false;
     const res = await fetch(`http://localhost:3000/api/products`);
     const products: Products = await res.json();
+    context.res.setHeader(
+      'Cache-Control',
+      'public, s-maxage=10, stale-while-revalidate=59'
+    )
     if (!products) {
       // it will redirect to 404 page
       return { notFound: true };
